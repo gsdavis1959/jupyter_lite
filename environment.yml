@@ -6,3 +6,11 @@ dependencies:
   - python=3.11
   - xeus-python
   - ipycanvas
+
+name: xeus-kernel
+channels:
+  - https://repo.mamba.pm/emscripten-forge
+  - conda-forge
+dependencies:
+  - xeus-r
+  - r-coursekata
